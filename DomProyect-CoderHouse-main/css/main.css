@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(168, 129, 44, 0.856);
+}
+li {
+    list-style: none;
+}
+h2{
+    text-align: center;
+    background-color: rgba(66, 23, 136, 0.137);
+    font-weight: 800;
+    font-size: 50px;
+}
+form{
+    margin: auto;
+}
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+
+}
+.contenedor-login{
+    background-color: blanchedalmond;
+}
+.nav-options {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+a {
+    display: block;
+    font-weight: 600;
+    font-family: sans-serif;
+    align-items: flex-end;
+}
+
+.parrafo-js {
+    text-align: left;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #222;
+    width: 20%;
+}
+
+.contenedor-F {
+    display: flex;
+    margin: 0;
+    padding: 50px;
+    justify-content: center;
+}
+
+.contenedor-cards{
+    display: flex;
+}
+
+.contenedor-H {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(223, 223, 223);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+}
+
+.parrafo {
+    padding: 5px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.parrafo-js{
+    width:100%;
+    background-color: rgba(31, 210, 216, 0.692);
+    color: black;
+    font-family: sans-serif;
+}
+
+#btn1, #btn2, #btn3 {
+    border: none;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(132, 189, 85);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.img-tm {
+    padding: 10px;
+    width: 350px;
+    height: 300px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 200px;
+}
